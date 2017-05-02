@@ -1,0 +1,29 @@
+{
+  "name": "fast",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "browser-sync": "^2.18.8",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-csscomb": "^3.0.8",
+    "gulp-csso": "^3.0.0",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-imagemin": "^3.2.0",
+    "gulp-notify": "^3.0.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-pug": "^3.3.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.6.0",
+    "gulp-uglify": "^2.1.2",
+    "gulp-watch": "^4.3.11",
+    "gulp.spritesmith": "^6.4.0"
+  }
+}

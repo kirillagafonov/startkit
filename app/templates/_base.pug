@@ -1,0 +1,21 @@
+doctype html
+html(lang="en")
+    head
+        include parts/_head.pug
+    body
+        include _load.pug
+        include parts/_header.pug
+
+        main.content
+            block content
+
+        include parts/_sidebar.pug
+
+        include parts/_footer.pug
+
+        // GOOGLE ANALYTICS
+
+        // YANDEX METRICS
+
+        script(src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js")
+        script(src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js")
